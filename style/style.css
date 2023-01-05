@@ -1,6 +1,7 @@
 /* for navebar */
 *{
     margin: 0;
+
     font-family: 'Open Sans', sans-serif; ;
 }
 .header{
@@ -28,7 +29,6 @@
     padding: 18px 35px;
 }
 nav{
-    
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
@@ -46,6 +46,7 @@ nav ul{
     margin: 0 200px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 
 }
 .banner-title{
@@ -67,4 +68,52 @@ nav ul{
     height: 700px;
     width: 700px;
     margin-left:340px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+ margin-top: 131px;
+ background: #FFF8F3;
+border-radius: 10px;
+text-align: center;
+padding: 131px 150px;
+
+
+}
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.section-pera{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-pera{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+    /* padding-right: 50px; */
+
+    
 }
